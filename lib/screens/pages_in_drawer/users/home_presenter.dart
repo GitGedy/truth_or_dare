@@ -30,8 +30,7 @@ class HomePresenter {
 
   updateScreen() {
     _view.screenUpdate();
-    
-    /*vcvhcbvncbcvbcvm*/ */
+
 
   }
 
