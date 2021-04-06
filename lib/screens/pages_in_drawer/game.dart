@@ -366,22 +366,7 @@ class _GameState extends State<Game> {
     typeRandom = '';
     return false;
 
-    /*var n = '';
-    do {
-      updateGameView();
-      n = catagoryRandom;
-    } while (n != 'Kids');
-    print('***********' + catagoryRandom + '*****************');
-    print('***********' + typeRandom + '*****************');*/
-
-    //updateGameView();
-
-    /*do {
-       updateGameView();
-    } while (type_string != typeRandom && catagory_vv != catagoryRandom);*/
-    //print(typeRandom + catagoryRandom);
-    //Navigator.pop(context);
-    //_onPickTypeButtonsPressed(context);
+    
   }
 
   showLoaderDialog(BuildContext context) {

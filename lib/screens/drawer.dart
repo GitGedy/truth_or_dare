@@ -109,13 +109,7 @@ class _MainWidgetState extends State<MainWidget>
             ),
             onPressed: () {
               _onAlertButtonsPressed(context);
-              /*
-            Navigator.of(context).push(CupertinoPageRoute(
-             // fullscreenDialog: true,
-              builder: (BuildContext context) {
-                return About();
-              },
-            ));*/
+             
             },
           ),
           decoration: BoxDecoration(

@@ -170,44 +170,7 @@ class _BodyState extends State<Body> {
           ),
         ),
 
-        /*  _buildTile(
-              Padding
-                (
-                padding: const EdgeInsets.all(24.0),
-                child: Row
-                  (
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: <Widget>
-                    [
-                      Column
-                        (
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>
-                        [
-                          Text('Shop Items', style: TextStyle(color: Colors.redAccent)),
-                          Text('173', style: TextStyle(color: Colors.black, fontWeight: FontWeight.w700, fontSize: 34.0))
-                        ],
-                      ),
-                      Material
-                        (
-                          color: Colors.red,
-                          borderRadius: BorderRadius.circular(24.0),
-                          child: Center
-                            (
-                              child: Padding
-                                (
-                                padding: EdgeInsets.all(16.0),
-                                child: Icon(Icons.store, color: Colors.white, size: 30.0),
-                              )
-                          )
-                      )
-                    ]
-                ),
-              ),
-              //onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => ShopItemsPage())),
-            )*/
+        
       ],
       staggeredTiles: [
         //StaggeredTile.extent(2, 120.0),
@@ -227,7 +190,7 @@ class _BodyState extends State<Body> {
         borderRadius: BorderRadius.circular(12.0),
         shadowColor: Color(0x802196F3),
         child: InkWell(
-            // Do onTap() if it isn't null, otherwise do print()
+            
             onTap: onTap != null
                 ? () => onTap()
                 : () {

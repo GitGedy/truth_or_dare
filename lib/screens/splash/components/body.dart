@@ -32,10 +32,7 @@ class _BodyState extends State<Body> {
       "text": "Spend your time with the family to collide the most.",
       "image": "assets/images/splash_5.png"
     },
-    {
-      "text": "Give the previous player score based on his/her performance.",
-      "image": "assets/images/splash_3.png"
-    },
+    
     {
       "text": "Add your custom truth or dare questions.",
       "image": "assets/images/splash_4.png"

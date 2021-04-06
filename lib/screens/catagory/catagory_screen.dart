@@ -1,9 +1,4 @@
 import 'package:flutter/material.dart';
-
-import 'package:truth_or_dare/screens/catagory/components/body.dart';
-import 'package:truth_or_dare/size_config.dart';
-
-import '../../constants.dart';
 import 'package:kf_drawer/kf_drawer.dart';
 
 
@@ -19,29 +14,7 @@ class CatagoryPage extends KFDrawerContent {
 class _CatagoryPageState extends State<CatagoryPage> {
   @override
   Widget build(BuildContext context) {
-   /* SizeConfig().init(context);
-    return Scaffold(
-      appBar: AppBar(
-          actions: <Widget>
-          [
-            Container
-              (
-              margin: EdgeInsets.only(right: 20.0),
-              child: Row
-                (
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: <Widget>
-                [
-                  Icon(Icons.arrow_forward_ios_outlined, color: Colors.white,size: 30,)
-                ],
-              ),
-            )
-          ],
-        title: Text('Home', style: TextStyle(fontSize: 30),),
-      backgroundColor: kPrimaryColor,),
-      body: Body(),
-    );*/
+  
 
 return SafeArea(
       child: Center(
